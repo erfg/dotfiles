@@ -17,24 +17,19 @@ npm install -g nave
 ruby <(curl -fsSkL raw.github.com/mxcl/homebrew/go)
 
 
-
-CODE_DIRECTORY = "~/dotfiles/code"
-if [ ! -d "$CODE_DIRECTORY" ]; then
-  # Control will enter here if $DIRECTORY doesn't exist.
-  mkdir code
-fi
+mkdir -p code
 
 # https://github.com/rupa/z
 # z, oh how i love you
-cd $CODE_DIRECTORY
+cd code
 git clone https://github.com/rupa/z.git
-chmod +x $CODE_DIRECTORY/z/z.sh
+chmod +x code/z/z.sh
 # z binary is already referenced from .bash_profile
 
 
 # https://github.com/jeroenbegyn/VLCControl
 # VLC Controll Script
-cd $CODE_DIRECTORY
+cd code
 git clone git://github.com/jeroenbegyn/VLCControl.git
 
 

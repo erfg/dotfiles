@@ -1,6 +1,9 @@
 # Compiled Python files
 *.pyc
 
+# Dependencies Folder
+code
+
 # Folder view configuration files
 .DS_Store
 Desktop.ini
