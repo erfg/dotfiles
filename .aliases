@@ -127,3 +127,5 @@ alias gall="git add -A"
 alias gc=gitCommit
 alias gpush="git push origin master"
 alias gpull="git pull origin master"
+# ------------------------------------------------------------------------------------
+alias publichost="ngrok -subdomain erfgapps -httpauth 'ngrokuser:ngrokpass' 80"
