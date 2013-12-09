@@ -120,7 +120,7 @@ alias pumpitup="osascript -e 'set volume 10'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 
 # ------------------------------------------------------------------------------------
-alias grunts="grunt server"
+alias grunts="grunt serve"
 alias bubu="brew update && brew upgrade"
 alias gs="git status"
 alias gall="git add -A"
@@ -129,3 +129,4 @@ alias gpush="git push origin master"
 alias gpull="git pull origin master"
 # ------------------------------------------------------------------------------------
 alias publichost="ngrok -subdomain erfgapps -httpauth 'ngrokuser:ngrokpass' 80"
+alias deploy="git push heroku master"
